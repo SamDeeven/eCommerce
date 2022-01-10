@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './components/Home/Home'
 import Signup from './components/Signup/Signup'
 import Signin from './components/Signin/Signin'
 import Profile from './components/Profile/Profile'
+import Navbar from './components/layout/Navbar'
 
 function App() {
   return (
