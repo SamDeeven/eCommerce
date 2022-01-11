@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import Signup from './components/Signup/Signup'
-import Signin from './components/Signin/Signin'
-import Profile from './components/Profile/Profile'
+
 import Navbar from './components/layout/Navbar'
 import Home from './components/Home';
 
