@@ -7,14 +7,14 @@ const dotenv = require('dotenv');
 //handle Uncaught exceptions
 process.on('uncaughtException', err => {
     console.log(`Error: ${err.stack}`)
-    console.log('SHutting down due to uncaught exception');
+    console.log('Shutting down due to uncaught exception');
     process.exit(1);
 })
 
 
 
 //Setting config file
-dotenv.config({ path: 'config/config.env' })
+dotenv.config({ path: 'server/config/config.env' })
 
 
 //connecting DB

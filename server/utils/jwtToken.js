@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 
 
-dotenv.config({ path: 'config/config.env' })
+dotenv.config({ path: 'server/config/config.env' })
 
 
 //create and send token and save in the cookie

@@ -7,7 +7,7 @@ const catchAsyncErrors = require('./catchAsyncErrors')
 
 const dotenv = require('dotenv');
 
-dotenv.config({ path: 'config/config.env' })
+dotenv.config({ path: 'server/config/config.env' })
 
 
 //checks if user is authenticated or not 
